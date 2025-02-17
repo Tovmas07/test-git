@@ -14,4 +14,6 @@ const server = http.createServer((req, res) => {
         console.error(err);
         console.log('Server failed.');
     }
+    const x = 20;
 })
+
