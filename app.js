@@ -12,8 +12,7 @@ const server = http.createServer((req, res) => {
     }catch(err){
         res.statusCode = 404;
         console.error(err);
-        console.log('Server failed.');
+        console.log(95);
     }
-    const x = 20;
 })
 
