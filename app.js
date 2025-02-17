@@ -11,12 +11,12 @@ const server = http.createServer((req, res) => {
         console.log('Server started');
     }catch(err){
         res.statusCode = 404;
-<<<<<<< Updated upstream
         console.error(err);
+
         console.log('Server failed.');
-=======
         console.error(lof);
-        console.log('apr');
->>>>>>> Stashed changes
+        console.log('apreee');
+
     }
 })
+
